@@ -1,0 +1,46 @@
+---
+title: "Tidy evidence syntheses: ‘good enough’ practice and minimum standards in data presentation for maximising legacy, reuse and impact"
+description: |
+  Good enough practices in data management for systematic maps.
+author:
+  - name: Neal Haddaway 
+    url: 
+    affiliation: SEI
+    affiliation_url: 
+  - name: Matthew Grainger 
+    url: 
+    affiliation: 
+    affiliation_url:
+  - name: Ezgi  
+    url: 
+    affiliation: 
+    affiliation_url:
+  - name: Charles 
+    url: 
+    affiliation: R-Ladies
+    affiliation_url:
+  - name: Andrew  
+    url: 
+    affiliation: 
+    affiliation_url:
+  - name: Martin Westgate 
+    url: 
+    affiliation: 
+    affiliation_url:
+
+date: "`r Sys.Date()`"
+output: radix::radix_article
+bibliography: biblio.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## citation example 
+Good enough[@wilson_good_2017]
+
+
+
+

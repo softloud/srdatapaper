@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543916713977.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3429067340",
+    "id" : "BE6F70A",
+    "lastKnownWriteTime" : 1543916751,
+    "last_content_update" : 1543916751468,
+    "path" : "~/Documents/repos/srdatapaper/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
