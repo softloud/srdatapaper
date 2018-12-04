@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543919270361.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "302812034",
+    "id" : "410C4E76",
+    "lastKnownWriteTime" : 1543915878,
+    "last_content_update" : 1543915878,
+    "path" : "~/Documents/repos/eviatlas/exploration/unnest-variable-app.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

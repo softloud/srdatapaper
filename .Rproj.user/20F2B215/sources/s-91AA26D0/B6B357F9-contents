@@ -42,5 +42,28 @@ knitr::opts_chunk$set(echo = FALSE)
 Good enough[@wilson_good_2017]
 
 
+```{r}
+trees <- tibble(
+  species = c("birch; poplar",
+              "oak; birch; pine",
+              "",
+              "poplar",
+              "oak"),
+  habitats = c(
+    "wetlands",
+    "forest",
+    "forest; wetlands",
+    "grasslands",
+    "grasslands; forest"
+  ),
+  id = letters[1:5]
+)
+```
+
+
+## wide data
+
+
+
 
 
