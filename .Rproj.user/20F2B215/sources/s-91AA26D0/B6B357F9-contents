@@ -38,6 +38,12 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+```{r}
+# packages
+library(tidyverse)
+```
+
+
 ## citation example 
 Good enough[@wilson_good_2017]
 
@@ -63,6 +69,11 @@ trees <- tibble(
 
 ## wide data
 
+```{r}
+
+
+
+```
 
 
 

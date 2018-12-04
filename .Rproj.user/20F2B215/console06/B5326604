@@ -22,4 +22,35 @@ To github.com:softloud/srdatapaper.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 [1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
 [01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
-[37m▶ [K[115C[1A[37m0m[00m [33m⚑ [37m◒  [01;31m[00m[1B[123D[?1h=[?2004hggit add .
+[37m▶ [K[115C[1A[37m0m[00m [33m⚑ [37m◒  [01;31m[00m[1B[123D[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[114C[1A[37m33m[00m [33m⚑ [32m✚  [01;31m[00m[1B[123D[?1h=[?2004hggit commit -m "added r trees "[?1l>[?2004l
+]2;git commit -m "added trees"]1;git[master 618851e] added trees
+ 9 files changed, 255 insertions(+), 88 deletions(-)
+ rewrite .Rproj.user/20F2B215/console06/B5326604 (85%)
+ create mode 100644 .Rproj.user/20F2B215/console06/B5326604.env
+ create mode 100644 .Rproj.user/20F2B215/sources/prop/1E3BC7BF
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/410C4E76
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/410C4E76-contents
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit push [?1l>[?2004l
+]2;git push]1;gitEnumerating objects: 26, done.
+Counting objects:   3% (1/26)   Counting objects:   7% (2/26)   Counting objects:  11% (3/26)   Counting objects:  15% (4/26)   Counting objects:  19% (5/26)   Counting objects:  23% (6/26)   Counting objects:  26% (7/26)   Counting objects:  30% (8/26)   Counting objects:  34% (9/26)   Counting objects:  38% (10/26)   Counting objects:  42% (11/26)   Counting objects:  46% (12/26)   Counting objects:  50% (13/26)   Counting objects:  53% (14/26)   Counting objects:  57% (15/26)   Counting objects:  61% (16/26)   Counting objects:  65% (17/26)   Counting objects:  69% (18/26)   Counting objects:  73% (19/26)   Counting objects:  76% (20/26)   Counting objects:  80% (21/26)   Counting objects:  84% (22/26)   Counting objects:  88% (23/26)   Counting objects:  92% (24/26)   Counting objects:  96% (25/26)   Counting objects: 100% (26/26)   Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 4.75 KiB | 973.00 KiB/s, done.
+Total 15 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 6 local objects.[K
+To github.com:softloud/srdatapaper.git
+   eb8558b..618851e  master -> master
+[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[116C[1A[37m0m[00m [33m⚑  [01;31m⍉[00m[1B[123D[?1h=[?2004hggit branch      checkout -b dev   charles       charles-dev[?1l>[?2004l
+]2;git checkout -b charles-dev]1;gitM	.Rproj.user/20F2B215/console06/B5326604
+Switched to a new branch 'charles-dev'
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
+[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit  g  ggit g  ttrees   t  ggit add .
