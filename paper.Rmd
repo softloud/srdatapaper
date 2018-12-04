@@ -49,7 +49,7 @@ Good enough[@wilson_good_2017]
 
 
 ```{r}
-trees <- tibble(
+(trees <- tibble(
   species_all = c("birch; poplar",
               "oak; birch; pine",
               "",
@@ -63,7 +63,7 @@ trees <- tibble(
     "grasslands, forest"
   ),
   id = letters[1:5]
-)
+))
 ```
 
 
@@ -71,12 +71,13 @@ trees <- tibble(
 ## unnesting variables
 
 ```{r}
-trees %>% 
+(trees_long <- trees %>% 
   eviatlas::get_obs("species_all", "species", ";") %>% 
-  eviatlas::get_obs("habitats_all", "habitats", ",")
+  eviatlas::get_obs("habitats_all", "habitats", ","))
 
 
 ```
+
 
 
 ## wide data
@@ -84,22 +85,12 @@ trees %>%
 Suppose different studies observed the presence of different animals. 
 
 ```{r}
-(trees_wide <- trees %>%
-  mutate(
-    ants = c(0, 1, 0, 0, 1),
-    frogs = c(1, 0, 0, 1, 1),
-    wombats = c(0, 0, 0, 0, 1)
-  )) 
+(trees_wide <- trees_long %>%
+   model.matrix(~ species + habitats, .))
 ```
 
 But if we wish to analyse based on the animal observations, we have multiple observations per row. To convert these data into tidy[@tidy-data] format, we need to have one animal observation per row. 
 
-```{r}
-(
-  trees_wide %>% 
-    gather(key = "animal", value = "observed", ants, frogs, wombats)
-)
-```
 
 
 
