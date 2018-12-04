@@ -47,8 +47,11 @@
   
   <!--/radix_placeholder_meta_tags-->
   
-  <meta name="citation_reference" content="citation_title=Tidy data;citation_publication_date=2014;citation_volume=59;citation_author=Hadley Wickham" />
+  <meta name="citation_reference" content="citation_title=Best Practices for Scientific Computing;citation_publication_date=2014;citation_volume=12;citation_doi=10.1371/journal.pbio.1001745;citation_issn=1545-7885;citation_author=Greg Wilson;citation_author=D. A. Aruliah;citation_author=C. Titus Brown;citation_author=Neil P. Chue Hong;citation_author=Matt Davis;citation_author=Richard T. Guy;citation_author=Steven H. D. Haddock;citation_author=Kathryn D. Huff;citation_author=Ian M. Mitchell;citation_author=Mark D. Plumbley;citation_author=Ben Waugh;citation_author=Ethan P. White;citation_author=Paul Wilson" />
+  <meta name="citation_reference" content="citation_title=Promoting an open research culture;citation_publication_date=2015;citation_volume=348;citation_doi=10.1126/science.aab2374;citation_issn=0036-8075, 1095-9203;citation_author=B. A. Nosek;citation_author=G. Alter;citation_author=G. C. Banks;citation_author=D. Borsboom;citation_author=S. D. Bowman;citation_author=S. J. Breckler;citation_author=S. Buck;citation_author=C. D. Chambers;citation_author=G. Chin;citation_author=G. Christensen;citation_author=M. Contestabile;citation_author=A. Dafoe;citation_author=E. Eich;citation_author=J. Freese;citation_author=R. Glennerster;citation_author=D. Goroff;citation_author=D. P. Green;citation_author=B. Hesse;citation_author=M. Humphreys;citation_author=J. Ishiyama;citation_author=D. Karlan;citation_author=A. Kraut;citation_author=A. Lupia;citation_author=P. Mabry;citation_author=T. Madon;citation_author=N. Malhotra;citation_author=E. Mayo-Wilson;citation_author=M. McNutt;citation_author=E. Miguel;citation_author=E. Levy Paluck;citation_author=U. Simonsohn;citation_author=C. Soderberg;citation_author=B. A. Spellman;citation_author=J. Turitto;citation_author=G. VandenBos;citation_author=S. Vazire;citation_author=E. J. Wagenmakers;citation_author=R. Wilson;citation_author=T. Yarkoni" />
   <meta name="citation_reference" content="citation_title=Good enough practices in scientific computing;citation_publication_date=2017;citation_volume=13;citation_doi=10.1371/journal.pcbi.1005510;citation_issn=1553-7358;citation_author=Greg Wilson;citation_author=Jennifer Bryan;citation_author=Karen Cranston;citation_author=Justin Kitzes;citation_author=Lex Nederbragt;citation_author=Tracy K. Teal" />
+  <meta name="citation_reference" content="citation_title=Tidy Data;citation_publication_date=2014;citation_volume=59;citation_doi=10.18637/jss.v059.i10;citation_issn=1548-7660;citation_author=Hadley Wickham" />
+  <meta name="citation_reference" content="citation_title=Tidyverse: Easily Install and Load the ’Tidyverse’;citation_publication_date=2017;citation_author=Hadley Wickham" />
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
@@ -1971,7 +1974,18 @@ distill-header .nav a {
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
-<h2 id="citation-example">citation example</h2>
+<h2 id="tidy-data-why-do-we-care">tidy data: why do we care?</h2>
+<p>That open and transparent practices benefit science has been widely discussed and rarely disputed<span class="citation" data-cites="nosek_promoting_2015">(Nosek et al. <a href="#ref-nosek_promoting_2015">2015</a>)</span>. However, there are significant barriers to the adoption of these practices. For example, applied scientists are rarely trained in data management and are frequently hesitant to share code and data due to exposing ad hoc procedures<span class="citation" data-cites="wilson_good_2017">(Wilson et al. <a href="#ref-wilson_good_2017">2017</a>)</span>.</p>
+<p>Systematic reviews are increasingly utlised is a number of disciplines, each of which have developed data management practices idiosyncratic to the summary requirements of that discipline. However, manipulating data for analysis, visualisation, and summary is a universal problem across disciplines. We seek to delineate between data structures for reporting and data structured for systmatic review (and, by extension, data analystics). We propose that data for systematic reviews follow <em>tidy data</em> principles<span class="citation" data-cites="wickham_tidy_2014">(Wickham <a href="#ref-wickham_tidy_2014">2014</a>)</span> to facillate transparency and collaborative science.</p>
+<p>In response, a discussion of <em>best practices</em> in data analytics has begun to emerge<span class="citation" data-cites="wilson_best_2014">(Wilson et al. <a href="#ref-wilson_best_2014">2014</a>)</span>. However, a gap remains between the proposal of best practice methods, and the adoption of these methods, which leads to consideration of not what is best, but what is <em>good enough</em><span class="citation" data-cites="wilson_good_2014">(<span class="citeproc-not-found" data-reference-id="wilson_good_2014"><strong>???</strong></span>)</span>.</p>
+<p>Data analytic tools, such as the metapackage <code>tidyverse::</code><span class="citation" data-cites="wickham_tidyverse:_2017">(Wickham <a href="#ref-wickham_tidyverse:_2017">2017</a>)</span>, are designed to be discipline agnostic. Thus methods are easily shared across disciplines, and duplication is reduced. For the tools to be agnostic, however, data must be structured in some uniform sense. We propose the adoption of <em>tidy data</em><span class="citation" data-cites="wickham_tidyverse:_2017">(Wickham <a href="#ref-wickham_tidyverse:_2017">2017</a>)</span> for systematic reviews. Whilst reporting standards vary from journal to journal, discipline to discipline, the computational tools upon which scientists rely for analysis, such as <code>tidyverse::</code> for data science or <code>revtools::</code> for systematic reviews, frequently work best with tidy data.</p>
+<p>As systematic reviews are implemented across a wide variety of disciplines, from social sciences, such as education, to medical research, we propose the adoption of tidy for data reporting and</p>
+<p>A concern in proposing <em>best practices</em> for data management is the programmatic barrier to the implementation of</p>
+<h2 id="ideas-to-integrate">ideas to integrate</h2>
+<ul>
+<li>data needs to be peer reviewed</li>
+</ul>
+<h2 id="tree-examples">tree examples</h2>
 <p>Good enough<span class="citation" data-cites="wilson_good_2017">(Wilson et al. <a href="#ref-wilson_good_2017">2017</a>)</span></p>
 <div class="layout-chunk" data-layout="l-body">
 <pre><code>
@@ -2036,10 +2050,22 @@ attr(,&quot;contrasts&quot;)$species
 attr(,&quot;contrasts&quot;)$habitats
 [1] &quot;contr.treatment&quot;</code></pre>
 </div>
-<p>But if we wish to analyse based on the animal observations, we have multiple observations per row. To convert these data into tidy<span class="citation" data-cites="tidy-data">(Wickham <a href="#ref-tidy-data">2014</a>)</span> format, we need to have one animal observation per row.</p>
+<p>But if we wish to analyse based on the animal observations, we have multiple observations per row. To convert these data into tidy<span class="citation" data-cites="wickham_tidy_2014">(Wickham <a href="#ref-wickham_tidy_2014">2014</a>)</span> format, we need to have one animal observation per row.</p>
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
 <div id="refs" class="references">
-<div id="ref-tidy-data">
-<p>Wickham, Hadley. 2014. “Tidy Data.” <em>The Journal of Statistical Software</em> 59 (10). <a href="http://www.jstatsoft.org/v59/i10/">http://www.jstatsoft.org/v59/i10/</a>.</p>
+<div id="ref-nosek_promoting_2015">
+<p>Nosek, B. A., G. Alter, G. C. Banks, D. Borsboom, S. D. Bowman, S. J. Breckler, S. Buck, et al. 2015. “Promoting an Open Research Culture.” <em>Science</em> 348 (6242): 1422–5. <a href="https://doi.org/10.1126/science.aab2374">https://doi.org/10.1126/science.aab2374</a>.</p>
+</div>
+<div id="ref-wickham_tidy_2014">
+<p>Wickham, Hadley. 2014. “Tidy Data.” <em>Journal of Statistical Software</em> 59 (1): 1–23. <a href="https://doi.org/10.18637/jss.v059.i10">https://doi.org/10.18637/jss.v059.i10</a>.</p>
+</div>
+<div id="ref-wickham_tidyverse:_2017">
+<p>———. 2017. <em>Tidyverse: Easily Install and Load the ’Tidyverse’</em>. <a href="https://CRAN.R-project.org/package=tidyverse">https://CRAN.R-project.org/package=tidyverse</a>.</p>
+</div>
+<div id="ref-wilson_best_2014">
+<p>Wilson, Greg, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, et al. 2014. “Best Practices for Scientific Computing.” Edited by Jonathan A. Eisen. <em>PLoS Biology</em> 12 (1): e1001745. <a href="https://doi.org/10.1371/journal.pbio.1001745">https://doi.org/10.1371/journal.pbio.1001745</a>.</p>
 </div>
 <div id="ref-wilson_good_2017">
 <p>Wilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. 2017. “Good Enough Practices in Scientific Computing.” Edited by Francis Ouellette. <em>PLOS Computational Biology</em> 13 (6): e1005510. <a href="https://doi.org/10.1371/journal.pcbi.1005510">https://doi.org/10.1371/journal.pcbi.1005510</a>.</p>
@@ -2058,18 +2084,47 @@ attr(,&quot;contrasts&quot;)$habitats
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom"></div>
 <script id="distill-bibliography" type="text/bibtex">
-@Article{tidy-data,
-  author = {Hadley Wickham},
-  issue = {10},
-  journal = {The Journal of Statistical Software},
-  selected = {TRUE},
-  title = {Tidy data},
-  url = {http://www.jstatsoft.org/v59/i10/},
-  volume = {59},
-  year = {2014},
-  bdsk-url-1 = {http://www.jstatsoft.org/v59/i10/},
+
+@article{wilson_best_2014,
+	title = {Best {Practices} for {Scientific} {Computing}},
+	volume = {12},
+	issn = {1545-7885},
+	url = {https://dx.plos.org/10.1371/journal.pbio.1001745},
+	doi = {10.1371/journal.pbio.1001745},
+	language = {en},
+	number = {1},
+	urldate = {2018-11-10},
+	journal = {PLoS Biology},
+	author = {Wilson, Greg and Aruliah, D. A. and Brown, C. Titus and Chue Hong, Neil P. and Davis, Matt and Guy, Richard T. and Haddock, Steven H. D. and Huff, Kathryn D. and Mitchell, Ian M. and Plumbley, Mark D. and Waugh, Ben and White, Ethan P. and Wilson, Paul},
+	editor = {Eisen, Jonathan A.},
+	month = jan,
+	year = {2014},
+	keywords = {dumpsterfire, measured.},
+	pages = {e1001745},
+	file = {Wilson et al. - 2014 - Best Practices for Scientific Computing.pdf:/home/charles/Zotero/storage/EMWZGF3A/Wilson et al. - 2014 - Best Practices for Scientific Computing.pdf:application/pdf}
 }
 
+@article{nosek_promoting_2015,
+	title = {Promoting an open research culture},
+	volume = {348},
+	copyright = {Copyright © 2015, American Association for the Advancement of Science},
+	issn = {0036-8075, 1095-9203},
+	url = {http://science.sciencemag.org/content/348/6242/1422},
+	doi = {10.1126/science.aab2374},
+	abstract = {Author guidelines for journals could help to promote transparency, openness, and reproducibility
+Author guidelines for journals could help to promote transparency, openness, and reproducibility},
+	language = {en},
+	number = {6242},
+	urldate = {2018-11-22},
+	journal = {Science},
+	author = {Nosek, B. A. and Alter, G. and Banks, G. C. and Borsboom, D. and Bowman, S. D. and Breckler, S. J. and Buck, S. and Chambers, C. D. and Chin, G. and Christensen, G. and Contestabile, M. and Dafoe, A. and Eich, E. and Freese, J. and Glennerster, R. and Goroff, D. and Green, D. P. and Hesse, B. and Humphreys, M. and Ishiyama, J. and Karlan, D. and Kraut, A. and Lupia, A. and Mabry, P. and Madon, T. and Malhotra, N. and Mayo-Wilson, E. and McNutt, M. and Miguel, E. and Paluck, E. Levy and Simonsohn, U. and Soderberg, C. and Spellman, B. A. and Turitto, J. and VandenBos, G. and Vazire, S. and Wagenmakers, E. J. and Wilson, R. and Yarkoni, T.},
+	month = jun,
+	year = {2015},
+	pmid = {26113702},
+	keywords = {dumpsterfire, measured., open science, psychology},
+	pages = {1422--1425},
+	file = {Full Text PDF:/home/charles/Zotero/storage/C834I6T6/Nosek et al. - 2015 - Promoting an open research culture.pdf:application/pdf;Snapshot:/home/charles/Zotero/storage/JP27GIVX/1422.html:text/html}
+}
 
 @article{wilson_good_2017,
 	title = {Good enough practices in scientific computing},
@@ -2087,6 +2142,32 @@ attr(,&quot;contrasts&quot;)$habitats
 	year = {2017},
 	pages = {e1005510},
 	file = {Wilson et al. - 2017 - Good enough practices in scientific computing.pdf:/home/charles/Zotero/storage/Y4EEYSM6/Wilson et al. - 2017 - Good enough practices in scientific computing.pdf:application/pdf}
+}
+
+@article{wickham_tidy_2014,
+	title = {Tidy {Data}},
+	volume = {59},
+	copyright = {Copyright (c) 2013 Hadley  Wickham},
+	issn = {1548-7660},
+	url = {https://www.jstatsoft.org/index.php/jss/article/view/v059i10},
+	doi = {10.18637/jss.v059.i10},
+	language = {en},
+	number = {1},
+	urldate = {2018-12-04},
+	journal = {Journal of Statistical Software},
+	author = {Wickham, Hadley},
+	month = sep,
+	year = {2014},
+	pages = {1--23},
+	file = {Full Text:/home/charles/Zotero/storage/T8QZXX5S/Wickham - 2014 - Tidy Data.pdf:application/pdf;Snapshot:/home/charles/Zotero/storage/XMVQD3SA/v059i10.html:text/html}
+}
+
+@book{wickham_tidyverse:_2017,
+	title = {tidyverse: {Easily} {Install} and {Load} the '{Tidyverse}'},
+	url = {https://CRAN.R-project.org/package=tidyverse},
+	author = {Wickham, Hadley},
+	year = {2017},
+	annote = {R package version 1.2.1}
 }
 </script>
 <!--/radix_placeholder_appendices-->

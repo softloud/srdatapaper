@@ -1,4 +1,4 @@
-"0","trees <- tibble("
+"0","(trees <- tibble("
 "0","  species_all = c(""birch; poplar"","
 "0","              ""oak; birch; pine"","
 "0","              """","
@@ -12,4 +12,4 @@
 "0","    ""grasslands, forest"""
 "0","  ),"
 "0","  id = letters[1:5]"
-"0",")"
+"0","))"
