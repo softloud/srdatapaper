@@ -1,130 +1,47 @@
-[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
-[37m▶ [K[114C[1A[37m0m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[123D[?1h=[?2004hggit remote add origin                 g  ggit remote add origin git@github.com:softloud/srdatapaper.git[?1l>[?2004l
-]2;git remote add origin git@github.com:softloud/srdatapaper.git]1;gitfatal: remote origin already exists.
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
-[37m▶ [K[114C[1A[37m0m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[123D[?1h=[?2004hggit push -u origin master[?1l>[?2004l
-]2;git push -u origin master]1;gitEnumerating objects: 42, done.
-Counting objects:   2% (1/42)   Counting objects:   4% (2/42)   Counting objects:   7% (3/42)   Counting objects:   9% (4/42)   Counting objects:  11% (5/42)   Counting objects:  14% (6/42)   Counting objects:  16% (7/42)   Counting objects:  19% (8/42)   Counting objects:  21% (9/42)   Counting objects:  23% (10/42)   Counting objects:  26% (11/42)   Counting objects:  28% (12/42)   Counting objects:  30% (13/42)   Counting objects:  33% (14/42)   Counting objects:  35% (15/42)   Counting objects:  38% (16/42)   Counting objects:  40% (17/42)   Counting objects:  42% (18/42)   Counting objects:  45% (19/42)   Counting objects:  47% (20/42)   Counting objects:  50% (21/42)   Counting objects:  52% (22/42)   Counting objects:  54% (23/42)   Counting objects:  57% (24/42)   Counting objects:  59% (25/42)   Counting objects:  61% (26/42)   Counting objects:  64% (27/42)   Counting objects:  66% (28/42)   Counting objects:  69% (29/42)   Counting objects:  71% (30/42)   Counting objects:  73% (31/42)   Counting objects:  76% (32/42)   Counting objects:  78% (33/42)   Counting objects:  80% (34/42)   Counting objects:  83% (35/42)   Counting objects:  85% (36/42)   Counting objects:  88% (37/42)   Counting objects:  90% (38/42)   Counting objects:  92% (39/42)   Counting objects:  95% (40/42)   Counting objects:  97% (41/42)   Counting objects: 100% (42/42)   Counting objects: 100% (42/42), done.
-Delta compression using up to 8 threads
-Compressing objects:   3% (1/33)   Compressing objects:   6% (2/33)   Compressing objects:   9% (3/33)   Compressing objects:  12% (4/33)   Compressing objects:  15% (5/33)   Compressing objects:  18% (6/33)   Compressing objects:  21% (7/33)   Compressing objects:  24% (8/33)   Compressing objects:  27% (9/33)   Compressing objects:  30% (10/33)   Compressing objects:  33% (11/33)   Compressing objects:  36% (12/33)   Compressing objects:  39% (13/33)   Compressing objects:  42% (14/33)   Compressing objects:  45% (15/33)   Compressing objects:  48% (16/33)   Compressing objects:  51% (17/33)   Compressing objects:  54% (18/33)   Compressing objects:  57% (19/33)   Compressing objects:  60% (20/33)   Compressing objects:  63% (21/33)   Compressing objects:  66% (22/33)   Compressing objects:  69% (23/33)   Compressing objects:  72% (24/33)   Compressing objects:  75% (25/33)   Compressing objects:  78% (26/33)   Compressing objects:  81% (27/33)   Compressing objects:  84% (28/33)   Compressing objects:  87% (29/33)   Compressing objects:  90% (30/33)   Compressing objects:  93% (31/33)   Compressing objects:  96% (32/33)   Compressing objects: 100% (33/33)   Compressing objects: 100% (33/33), done.
-Writing objects:   2% (1/42)   Writing objects:   4% (2/42)   Writing objects:   7% (3/42)   Writing objects:   9% (4/42)   Writing objects:  11% (5/42)   Writing objects:  14% (6/42)   Writing objects:  16% (7/42)   Writing objects:  19% (8/42)   Writing objects:  21% (9/42)   Writing objects:  23% (10/42)   Writing objects:  26% (11/42)   Writing objects:  28% (12/42)   Writing objects:  30% (13/42)   Writing objects:  33% (14/42)   Writing objects:  35% (15/42)   Writing objects:  38% (16/42)   Writing objects:  45% (19/42)   Writing objects:  47% (20/42)   Writing objects:  50% (21/42)   Writing objects:  52% (22/42)   Writing objects:  54% (23/42)   Writing objects:  57% (24/42)   Writing objects:  59% (25/42)   Writing objects:  61% (26/42)   Writing objects:  64% (27/42)   Writing objects:  66% (28/42)   Writing objects:  69% (29/42)   Writing objects:  71% (30/42)   Writing objects:  73% (31/42)   Writing objects:  76% (32/42)   Writing objects:  78% (33/42)   Writing objects:  80% (34/42)   Writing objects:  83% (35/42)   Writing objects:  85% (36/42)   Writing objects:  88% (37/42)   Writing objects:  90% (38/42)   Writing objects:  92% (39/42)   Writing objects:  95% (40/42)   Writing objects:  97% (41/42)   Writing objects: 100% (42/42)   Writing objects: 100% (42/42), 122.31 KiB | 1.22 MiB/s, done.
-Total 42 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), done.[K
-remote: 
-remote: Create a pull request for 'master' on GitHub by visiting:[K
-remote:      https://github.com/softloud/srdatapaper/pull/new/master[K
-remote: 
-To github.com:softloud/srdatapaper.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
-[37m▶ [K[115C[1A[37m0m[00m [33m⚑ [37m◒  [01;31m[00m[1B[123D[?1h=[?2004hggit add .[?1l>[?2004l
-]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
-[37m▶ [K[114C[1A[37m33m[00m [33m⚑ [32m✚  [01;31m[00m[1B[123D[?1h=[?2004hggit commit -m "added r trees "[?1l>[?2004l
-]2;git commit -m "added trees"]1;git[master 618851e] added trees
- 9 files changed, 255 insertions(+), 88 deletions(-)
- rewrite .Rproj.user/20F2B215/console06/B5326604 (85%)
- create mode 100644 .Rproj.user/20F2B215/console06/B5326604.env
- create mode 100644 .Rproj.user/20F2B215/sources/prop/1E3BC7BF
- create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/410C4E76
- create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/410C4E76-contents
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
-[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit push [?1l>[?2004l
-]2;git push]1;gitEnumerating objects: 26, done.
-Counting objects:   3% (1/26)   Counting objects:   7% (2/26)   Counting objects:  11% (3/26)   Counting objects:  15% (4/26)   Counting objects:  19% (5/26)   Counting objects:  23% (6/26)   Counting objects:  26% (7/26)   Counting objects:  30% (8/26)   Counting objects:  34% (9/26)   Counting objects:  38% (10/26)   Counting objects:  42% (11/26)   Counting objects:  46% (12/26)   Counting objects:  50% (13/26)   Counting objects:  53% (14/26)   Counting objects:  57% (15/26)   Counting objects:  61% (16/26)   Counting objects:  65% (17/26)   Counting objects:  69% (18/26)   Counting objects:  73% (19/26)   Counting objects:  76% (20/26)   Counting objects:  80% (21/26)   Counting objects:  84% (22/26)   Counting objects:  88% (23/26)   Counting objects:  92% (24/26)   Counting objects:  96% (25/26)   Counting objects: 100% (26/26)   Counting objects: 100% (26/26), done.
-Delta compression using up to 8 threads
-Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
-Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 4.75 KiB | 973.00 KiB/s, done.
-Total 15 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 6 local objects.[K
-To github.com:softloud/srdatapaper.git
-   eb8558b..618851e  master -> master
-[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
-[37m▶ [K[116C[1A[37m0m[00m [33m⚑  [01;31m⍉[00m[1B[123D[?1h=[?2004hggit branch      checkout -b dev   charles       charles-dev[?1l>[?2004l
-]2;git checkout -b charles-dev]1;gitM	.Rproj.user/20F2B215/console06/B5326604
-Switched to a new branch 'charles-dev'
 [1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
 [01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit  g  ggit g  ttrees   t  ggit add .[?1l>[?2004l
+[37m▶ [K[114C[1A[37m54m[00m [31m✖ [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hlls ~Do  /Do
+[J[34;40mDocuments[0m/  [J[34;40mDownloads[0m/[J[A[0m[27m[24m[2Cls ~/Do[K[107C[1A[37m54m[00m [31m✖ [33m⚑  [01;31m[00m[1B[116Dwnloads[1m/[0m[0m [?1l>[?2004l
+[J]2;ls --color=tty ~/Downloads]1;ls 20181126_MeetupCharge_JKasza.pdf   PhD.zip                            'strings (1).pdf'
+ basic.ics                          rain_temp_beachbugs.csv             strings.pdf
+ [0m[34;40mcharles-gray_files[0m                 rstudio-1.2.1091-amd64.deb          TableSummary.pdf
+ charles-gray.html                  rstudio-1.2.1114-amd64.deb          [34;40mtalk-nocats.utf8_files[0m
+ charles-gray.pdf                   rstudio-xenial-1.1.419-amd64.deb    talk-nocats.utf8.pdf
+ Details-20170206-20181112.csv      S2_Table.csv                        trainvouchersforbooking12979338graycharlesmrsdepa.zip
+ dropbox_2015.10.28_amd64.deb       scopus.bib                         'v59i10 (1).pdf'
+ DsKgAHqW0AUGu4b.jpg                Scopus_exported_refine_values.csv   v59i10.pdf
+ Itinerary-12979338.pdf             simulate-meta-analysis-data.html    Zotero-5.0.57_linux-x86_64.tar.bz2
+ nocturne_in_e_minor-let.pdf        slack-desktop-3.3.3-amd64.deb
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
+[37m▶ [K[114C[1A[37m54m[00m [31m✖ [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hccp ~Down    /Zotero[1m/[0m
+[0mantigen.zsh        [34;40mDownloads[0m/         [34;40mPictures[0m/          Release.key        [34;40mTemplates[0m/                          [K
+[34;40mDesktop[0m/           [34;40mDropbox[0m/           [34;40mPublic[0m/            [34;40msnap[0m/              [34;40mVideos[0m/                             [K
+[J[34;40mDocuments[0m/         [J[34;40mMusic[0m/             [J[34;40mR[0m/                 [J[34;40msoftware-install[0m/  [J[7mZotero/          [0m  [J                 [3A[0m[27m[24m[2Ccp ~/Zotero[1m/[0m[K[102C[1A[37m54m[00m [31m✖ [33m⚑  [01;31m[00m[1B[111D
+[2B[76C[7mZotero/          [0m[76C[7mZotero/          [0m[3A[0m[27m[24m[2Ccp ~/Zotero[1m/[0m[K[102C[1A[37m54m[00m [31m✖ [33m⚑  [01;31m[00m[1B[111D
+[J[A[14C[0m/Dow            !/  ~/Downloads[1m/[0m[0m/S
+[J[0mS2_Table.csv                       simulate-meta-analysis-data.html   strings.pdf                      
+scopus.bib                         slack-desktop-3.3.3-amd64.deb                                       
+[JScopus_exported_refine_values.csv  [Jstrings\ \(1\).pdf                 [J                                 [3A[0m[27m[24m[2Ccp ~/Downloads/S[K[98C[1A[37m54m[00m [31m✖ [33m⚑  [01;31m[00m[1B[107D2_Table.csv[1m [0m[0m ~/Documents[1m/[0m[0m/repos[1m/[0m[0m/srdatapaper[1m/[0m[0m/clinical_example.c         data.csv[?1l>[?2004l
+[J]2;cp ~/Downloads/S2_Table.csv ~/Documents/repos/srdatapaper/clinical_data.csv]1;cp[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
+[37m▶ [K[110C[1A[37m1h23m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[123D[?1h=[?2004h
+fwd-i-search: _[K[A[13D[1Bfailing fwd-i-search: g_[A[22D[1B[21Ci_[A[23D[1B[22Ct_[A[24D[1B[23C _[A[25D[1B[23C_ [A[25D[1B[22C_ [A[24D[1B[21C_ [A[23D[1B[8P[14C_         [A[22D[1Bfailing fwd-i-search: g_[A[22D[1B[21Ci_[A[23D[1B[22Ct_[A[24D[1B[22C_ [A[24D[1B[21C_ [A[23D[1B[K[A[2C[?2004l[1B[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
+[37m▶ [K[109C[1A[37m1h23m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[123D[?1h=[?2004hggi tadd    t add .[?1l>[?2004l
 ]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
 [01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[115C[1A[37m1m[00m [33m⚑ [32m✚  [01;31m[00m[1B[123D[?1h=[?2004hggoit com     g git commit -m "packages        tidyverse"[?1l>[?2004l
-]2;git commit -m "tidyverse"]1;git[charles-dev b115ad3] tidyverse
- 11 files changed, 91 insertions(+), 6 deletions(-)
- rewrite .Rproj.user/shared/notebooks/84989938-paper/1/20F2B21591AA26D0/chunks.json (100%)
- rewrite .Rproj.user/shared/notebooks/84989938-paper/1/s/chunks.json (100%)
- create mode 100644 .Rproj.user/shared/notebooks/84989938-paper/1/s/csetup_chunk/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/84989938-paper/1/s/cxltg6pwscfrm/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/84989938-paper/1/s/cxltg6pwscfrm/000003.error
 [1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
 [01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit push origin charles-dev[1m [0m[0m [?1l>[?2004l
-]2;git push origin charles-dev]1;gitEnumerating objects: 44, done.
-Counting objects:   2% (1/43)   Counting objects:   4% (2/43)   Counting objects:   6% (3/43)   Counting objects:   9% (4/43)   Counting objects:  11% (5/43)   Counting objects:  13% (6/43)   Counting objects:  16% (7/43)   Counting objects:  18% (8/43)   Counting objects:  20% (9/43)   Counting objects:  23% (10/43)   Counting objects:  25% (11/43)   Counting objects:  27% (12/43)   Counting objects:  30% (13/43)   Counting objects:  32% (14/43)   Counting objects:  34% (15/43)   Counting objects:  37% (16/43)   Counting objects:  39% (17/43)   Counting objects:  41% (18/43)   Counting objects:  44% (19/43)   Counting objects:  46% (20/43)   Counting objects:  48% (21/43)   Counting objects:  51% (22/43)   Counting objects:  53% (23/43)   Counting objects:  55% (24/43)   Counting objects:  58% (25/43)   Counting objects:  60% (26/43)   Counting objects:  62% (27/43)   Counting objects:  65% (28/43)   Counting objects:  67% (29/43)   Counting objects:  69% (30/43)   Counting objects:  72% (31/43)   Counting objects:  74% (32/43)   Counting objects:  76% (33/43)   Counting objects:  79% (34/43)   Counting objects:  81% (35/43)   Counting objects:  83% (36/43)   Counting objects:  86% (37/43)   Counting objects:  88% (38/43)   Counting objects:  90% (39/43)   Counting objects:  93% (40/43)   Counting objects:  95% (41/43)   Counting objects:  97% (42/43)   Counting objects: 100% (43/43)   Counting objects: 100% (43/43), done.
-Delta compression using up to 8 threads
-Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
-Writing objects:   4% (1/25)   Writing objects:   8% (2/25)   Writing objects:  12% (3/25)   Writing objects:  16% (4/25)   Writing objects:  20% (5/25)   Writing objects:  24% (6/25)   Writing objects:  28% (7/25)   Writing objects:  32% (8/25)   Writing objects:  36% (9/25)   Writing objects:  40% (10/25)   Writing objects:  44% (11/25)   Writing objects:  48% (12/25)   Writing objects:  52% (13/25)   Writing objects:  56% (14/25)   Writing objects:  60% (15/25)   Writing objects:  64% (16/25)   Writing objects:  68% (17/25)   Writing objects:  72% (18/25)   Writing objects:  76% (19/25)   Writing objects:  80% (20/25)   Writing objects:  84% (21/25)   Writing objects:  88% (22/25)   Writing objects:  92% (23/25)   Writing objects:  96% (24/25)   Writing objects: 100% (25/25)   Writing objects: 100% (25/25), 3.27 KiB | 3.27 MiB/s, done.
-Total 25 (delta 8), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
-remote: 
-remote: Create a pull request for 'charles-dev' on GitHub by visiting:[K
-remote:      https://github.com/softloud/srdatapaper/pull/new/charles-dev[K
-remote: 
-To github.com:softloud/srdatapaper.git
- * [new branch]      charles-dev -> charles-dev
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[37m▶ [K[110C[1A[37m1h29m[00m [31m✖ [33m⚑ [32m✚  [01;31m[00m[1B[123D[?1h=[?2004hccdc cp ~Dow   /
+[0mantigen.zsh        [34;40mDownloads[0m/         [34;40mPictures[0m/          Release.key        [34;40mTemplates[0m/                          
+[34;40mDesktop[0m/           [34;40mDropbox[0m/           [34;40mPublic[0m/            [34;40msnap[0m/              [34;40mVideos[0m/                             
+[J[34;40mDocuments[0m/         [J[34;40mMusic[0m/             [J[34;40mR[0m/                 [J[34;40msoftware-install[0m/  [J[34;40mZotero[0m/            [J                 [3A[0m[27m[24m[2Ccp ~/[K[105C[1A[37m1h29m[00m [31m✖ [33m⚑ [32m✚  [01;31m[00m[1B[118DDownloads[1m/[0m[0m/S
+[J[0mS1_Table.csv                       Scopus_exported_refine_values.csv  strings\ \(1\).pdf               
+S2_Table.csv                       simulate-meta-analysis-data.html   strings.pdf                      
+[Jscopus.bib                         [Jslack-desktop-3.3.3-amd64.deb      [J                                 [3A[0m[27m[24m[2Ccp ~/Downloads/S[K[94C[1A[37m1h29m[00m [31m✖ [33m⚑ [32m✚  [01;31m[00m[1B[107D2 1_Table.csv[1m [0m[0m ~D /do  Documents[1m/[0m[0m/repos[1m/[0m[0m/srdatapaper[1m/[0m[0m/clinical_example.csv[?1l>[?2004l
+[J]2;cp ~/Downloads/S1_Table.csv ~/Documents/repos/srdatapaper/clinical_example.cs]1;cp[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
 [01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004h[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-ggit pull origin master            master h charles-dev[1m:[0m[0m                   origin ch        origin charles-dev[1m:[0m[0m [?1l>[?2004l
-]2;git pull origin charles-dev]1;gitFrom github.com:softloud/srdatapaper
- * branch            charles-dev -> FETCH_HEAD
-Already up to date.
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[113C[1A[37m8m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[123D[?1h=[?2004hggit add .     g  ggit add .[?1l>[?2004l
-]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[112C[1A[37m16m[00m [31m✖ [33m⚑ [32m✚  [01;31m[00m[1B[123D[?1h=[?2004hggit commit -m "trees first       exm amples ' :   :notes:"[?1l>[?2004l
-]2;git commit -m "trees examples :notes:"]1;git[charles-dev e5ec12a] trees examples :notes:
- 22 files changed, 160 insertions(+), 312 deletions(-)
- rewrite .Rproj.user/20F2B215/console06/INDEX001 (100%)
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/1C8BD6B0-contents
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/410C4E76
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/410C4E76-contents
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/7F65A480
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/7F65A480-contents
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/B6B357F9
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/B6B357F9-contents
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/BE6F70A
- delete mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/BE6F70A-contents
- delete mode 100644 .Rproj.user/shared/notebooks/791BCDD-README/1/20F2B21591AA26D0/chunks.json
- rewrite .Rproj.user/shared/notebooks/84989938-paper/1/20F2B21591AA26D0/chunks.json (61%)
- rewrite .Rproj.user/shared/notebooks/84989938-paper/1/s/chunks.json (61%)
- delete mode 100644 .Rproj.user/shared/notebooks/84989938-paper/1/s/cxltg6pwscfrm/000003.error
- create mode 100644 .gitignore
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit push origin charles-dev[1m [0m[0m [?1l>[?2004l
-]2;git push origin charles-dev]1;gitEnumerating objects: 50, done.
-Counting objects:   2% (1/50)   Counting objects:   4% (2/50)   Counting objects:   6% (3/50)   Counting objects:   8% (4/50)   Counting objects:  10% (5/50)   Counting objects:  12% (6/50)   Counting objects:  14% (7/50)   Counting objects:  16% (8/50)   Counting objects:  18% (9/50)   Counting objects:  20% (10/50)   Counting objects:  22% (11/50)   Counting objects:  24% (12/50)   Counting objects:  26% (13/50)   Counting objects:  28% (14/50)   Counting objects:  30% (15/50)   Counting objects:  32% (16/50)   Counting objects:  34% (17/50)   Counting objects:  36% (18/50)   Counting objects:  38% (19/50)   Counting objects:  40% (20/50)   Counting objects:  42% (21/50)   Counting objects:  44% (22/50)   Counting objects:  46% (23/50)   Counting objects:  48% (24/50)   Counting objects:  50% (25/50)   Counting objects:  52% (26/50)   Counting objects:  54% (27/50)   Counting objects:  56% (28/50)   Counting objects:  58% (29/50)   Counting objects:  60% (30/50)   Counting objects:  62% (31/50)   Counting objects:  64% (32/50)   Counting objects:  66% (33/50)   Counting objects:  68% (34/50)   Counting objects:  70% (35/50)   Counting objects:  72% (36/50)   Counting objects:  74% (37/50)   Counting objects:  76% (38/50)   Counting objects:  78% (39/50)   Counting objects:  80% (40/50)   Counting objects:  82% (41/50)   Counting objects:  84% (42/50)   Counting objects:  86% (43/50)   Counting objects:  88% (44/50)   Counting objects:  90% (45/50)   Counting objects:  92% (46/50)   Counting objects:  94% (47/50)   Counting objects:  96% (48/50)   Counting objects:  98% (49/50)   Counting objects: 100% (50/50)   Counting objects: 100% (50/50), done.
-Delta compression using up to 8 threads
-Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
-Writing objects:   3% (1/26)   Writing objects:   7% (2/26)   Writing objects:  11% (3/26)   Writing objects:  15% (4/26)   Writing objects:  19% (5/26)   Writing objects:  23% (6/26)   Writing objects:  26% (7/26)   Writing objects:  30% (8/26)   Writing objects:  34% (9/26)   Writing objects:  38% (10/26)   Writing objects:  42% (11/26)   Writing objects:  46% (12/26)   Writing objects:  50% (13/26)   Writing objects:  53% (14/26)   Writing objects:  57% (15/26)   Writing objects:  61% (16/26)   Writing objects:  65% (17/26)   Writing objects:  69% (18/26)   Writing objects:  73% (19/26)   Writing objects:  76% (20/26)   Writing objects:  80% (21/26)   Writing objects:  84% (22/26)   Writing objects:  88% (23/26)   Writing objects:  92% (24/26)   Writing objects:  96% (25/26)   Writing objects: 100% (26/26)   Writing objects: 100% (26/26), 5.03 KiB | 184.00 KiB/s, done.
-Total 26 (delta 8), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
-To github.com:softloud/srdatapaper.git
-   b115ad3..e5ec12a  charles-dev -> charles-dev
-[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004h[0m[27m[24m[J
-[01;34mDocuments/repos/srdatapaper[00m  [32mcharles-dev [31m✗[00m[00m 
-[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit add .
+[37m▶ [K[108C[1A[37m1h29m[00m [31m✖ [33m⚑ [32m✚ [37m◒  [01;31m[00m[1B[123D[?1h=[?2004hggit add .

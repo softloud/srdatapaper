@@ -1,0 +1,32 @@
+study,descriptor.popn,end.time,overall.n,overall.N,u1.n,u1.N,o1.n,o1.N,pea.n,pea.N,vf.n,vf.N,med.n,med.N,trauma.n,trauma.N,picu.n,picu.N,ip.n,ip.N,op.n,op.N,witness.n,witness.N,unseen.n,unseen.N,byst.n,byst.N,breaths.n,breaths.N,hands.n,hands.N,nobyst.n,nobyst.N,4.n,4.N,9.n,9.N,19.n,19.N,29.n,29.N,60.n,60.N,90.n,90.N
+Atkins,Out of hosp,Discharge,39,500,8,230,31,270,19,382,7,35,60,621,NA,NA,NA,NA,NA,NA,39,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Carroll,PICU & 2 doses vasopressor,Discharge,12,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+del Castillo,Inhospital - multi department,Undefined,181,543,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,181,543,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+De Maio,Out of hospital trauma patients,Discharge,7,123,NA,NA,NA,NA,1,76,0,3,NA,NA,7,123,NA,NA,NA,NA,7,123,4,53,3,52,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Donoghue,non-VF/pVT inpatients,Discharge,365,1489,131,398,157,790,365,1489,NA,NA,NA,NA,NA,NA,NA,NA,365,1489,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Foltin,Out of hospital,Discharge,6,147,NA,NA,NA,NA,NA,NA,NA,NA,6,116,0,31,NA,NA,NA,NA,6,147,6,58,0,70,3,44,NA,NA,NA,NA,3,87,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gerein,Out of hospital,Discharge,9,457,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,457,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Nitta,Out of hospital,1 month,58,740,18,343,38,397,47,682,7,27,NA,NA,NA,NA,NA,NA,NA,NA,58,740,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Moreno,PICU,Discharge,28,132,NA,NA,NA,NA,24,95,2,11,NA,NA,NA,NA,28,132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Kitamura,Out of hospital witnessed,1 month,475,5158,146,2082,329,3076,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,475,5158,475,5158,NA,NA,277,2439,193,1551,84,888,198,2719,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Nadkami,All children,Discharge,236,880,NA,NA,NA,NA,135,563,35,120,NA,NA,NA,NA,141,570,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lopez-Herce,In &Out of hospital,1 year,45,213,NA,NA,NA,NA,16,117,5,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,61,14,22,15,47,5,26,6,83,0,25
+Rodriguez-Nuenz,PICU,Discharge,29,96,NA,NA,NA,NA,11,41,2,11,NA,NA,NA,NA,29,96,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,34,5,11,4,22,0,7,1,26,0,8
+Engdahl,Out of hospital 1980-2000,Discharge,5,98,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,98,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+del Castillo 2014,Castillo,Discharge,101,250,77,128,72,122,71,119,8,13,,,,,101,250,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Zheng,Zheng,Discharge,49,174,33,83,17,91,10,34,4,14,,,,,36,141,11,30,,,,,,,,,,,,,,,,,,,,,,,,,,
+Knight,Knight,Discharge,28,46,,,,,,,,,,,,,,,28,46,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,n = with event (death),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,N = overall number of CPR events,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,u1 = under 1 year old,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,pea = pulseless electrical activity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,vf = ventricular fibrilation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,med = medical cause,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,trauma = trauma cause,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,picu = occurred in PICU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,ip = occurred as an in-patient,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,op = occurred out of hospital,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,byst = bystander CPR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,breaths = conventional CPR with mout to mouth ventilation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,"hands = compression only CPR, without mout to mouth",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
