@@ -52,6 +52,7 @@
   <meta name="citation_reference" content="citation_title=Good enough practices in scientific computing;citation_publication_date=2017;citation_volume=13;citation_doi=10.1371/journal.pcbi.1005510;citation_issn=1553-7358;citation_author=Greg Wilson;citation_author=Jennifer Bryan;citation_author=Karen Cranston;citation_author=Justin Kitzes;citation_author=Lex Nederbragt;citation_author=Tracy K. Teal" />
   <meta name="citation_reference" content="citation_title=Tidy Data;citation_publication_date=2014;citation_volume=59;citation_doi=10.18637/jss.v059.i10;citation_issn=1548-7660;citation_author=Hadley Wickham" />
   <meta name="citation_reference" content="citation_title=Tidyverse: Easily Install and Load the ’Tidyverse’;citation_publication_date=2017;citation_author=Hadley Wickham" />
+  <meta name="citation_reference" content="citation_title=The tidyverse style guide;citation_author=Hadley Wickham" />
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
@@ -1972,15 +1973,129 @@ distill-header .nav a {
 
 <div class="d-article">
 <div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# packages
+library(tidyverse)
+library(googlesheets)
 
+# the examples in this paper are given in R, however the data management recommendations aim to be language agnostic</code></pre>
 </div>
-<h2 id="tidy-data-why-do-we-care">tidy data: why do we care?</h2>
+<h2 id="why-tidy-systematic-review-data">why <em>tidy</em> systematic review data?</h2>
 <p>That open and transparent practices benefit science has been widely discussed and rarely disputed<span class="citation" data-cites="nosek_promoting_2015">(Nosek et al. <a href="#ref-nosek_promoting_2015">2015</a>)</span>. However, there are significant barriers to the adoption of these practices. For example, applied scientists are rarely trained in data management and are frequently hesitant to share code and data due to exposing ad hoc procedures<span class="citation" data-cites="wilson_good_2017">(Wilson et al. <a href="#ref-wilson_good_2017">2017</a>)</span>.</p>
-<p>Systematic reviews are increasingly utlised is a number of disciplines, each of which have developed data management practices idiosyncratic to the summary requirements of that discipline. However, manipulating data for analysis, visualisation, and summary is a universal problem across disciplines. We seek to delineate between data structures for reporting and data structured for systmatic review (and, by extension, data analystics). We propose that data for systematic reviews follow <em>tidy data</em> principles<span class="citation" data-cites="wickham_tidy_2014">(Wickham <a href="#ref-wickham_tidy_2014">2014</a>)</span> to facillate transparency and collaborative science.</p>
+<p>Systematic reviews are increasingly utilised in a number of disciplines, each of which have developed data management practices idiosyncratic to the summary requirements of that discipline. However, manipulating data for analysis, visualisation, and summary is a universal problem across disciplines. We seek to delineate between data structures for reporting and data structured for systematic review (and, by extension, data analytics). We propose that data for systematic reviews follow <em>tidy data</em> principles<span class="citation" data-cites="wickham_tidy_2014">(Wickham <a href="#ref-wickham_tidy_2014">2014</a>)</span> to facilitate transparency and collaborative science.</p>
 <p>In response, a discussion of <em>best practices</em> in data analytics has begun to emerge<span class="citation" data-cites="wilson_best_2014">(Wilson et al. <a href="#ref-wilson_best_2014">2014</a>)</span>. However, a gap remains between the proposal of best practice methods, and the adoption of these methods, which leads to consideration of not what is best, but what is <em>good enough</em><span class="citation" data-cites="wilson_good_2014">(<span class="citeproc-not-found" data-reference-id="wilson_good_2014"><strong>???</strong></span>)</span>.</p>
-<p>Data analytic tools, such as the metapackage <code>tidyverse::</code><span class="citation" data-cites="wickham_tidyverse:_2017">(Wickham <a href="#ref-wickham_tidyverse:_2017">2017</a>)</span>, are designed to be discipline agnostic. Thus methods are easily shared across disciplines, and duplication is reduced. For the tools to be agnostic, however, data must be structured in some uniform sense. We propose the adoption of <em>tidy data</em><span class="citation" data-cites="wickham_tidyverse:_2017">(Wickham <a href="#ref-wickham_tidyverse:_2017">2017</a>)</span> for systematic reviews. Whilst reporting standards vary from journal to journal, discipline to discipline, the computational tools upon which scientists rely for analysis, such as <code>tidyverse::</code> for data science or <code>revtools::</code> for systematic reviews, frequently work best with tidy data.</p>
-<p>As systematic reviews are implemented across a wide variety of disciplines, from social sciences, such as education, to medical research, we propose the adoption of tidy for data reporting and</p>
-<p>A concern in proposing <em>best practices</em> for data management is the programmatic barrier to the implementation of</p>
+<p>The barriers to good enough practices in data analysis, reporting, and transparency are uniquely computational in nature, as opposed to other aspects of open science, such as preregistration, or the adoption of particular methodologies. If we are to ask scientists to adopt better computational practices, we must lower the programmatic barrier to the implementation of these methods. Clearly identifying minimum standards for data sharing and transparent analyses benefit scientists who engage with computational aspects of systematic reviews infrequently, as is common for applied scientists for whom the data component of a systematic review. With clear minimum standards for reporting, anxiety associated with data sharing<span class="citation" data-cites="wilson_good_2014">(@ <span class="citeproc-not-found" data-reference-id="wilson_good_2014"><strong>???</strong></span>)</span> can be mitigated, and thus a barrier to open and transparent data.</p>
+<p>Data analytic tools, such as the metapackage <code>tidyverse::</code><span class="citation" data-cites="wickham_tidyverse:_2017">(Wickham <a href="#ref-wickham_tidyverse:_2017">2017</a>)</span>, are designed to be discipline agnostic. Thus methods are easily shared across disciplines, and duplication is reduced. For the tools to be agnostic, however, data must be structured in some uniform sense. We propose the adoption of <em>tidy data</em><span class="citation" data-cites="wickham_tidyverse:_2017">(Wickham <a href="#ref-wickham_tidyverse:_2017">2017</a>)</span> for systematic reviews. Whilst reporting standards vary from journal to journal, discipline to discipline, the computational tools upon which scientists rely for analysis, such as <code>tidyverse::</code> for data science or <code>revtools::</code>[CITE] for systematic reviews, frequently work best with tidy data.</p>
+<h3 id="what-is-tidy-data">what is tidy data?</h3>
+<p>Data is commonly structured tabular format, with <em>rows</em> and <em>columns</em> as is familiar within spreadsheeting tools such as Excel. A dataset is a collection of <em>values</em>, but there are many ways these values can be arranged within rows and columns<span class="citation" data-cites="wickham_tidy_2014">(Wickham <a href="#ref-wickham_tidy_2014">2014</a>)</span>. In the case of systematic reviews, we wish to explain, with examples from disciplines that make frequent use of systematic reviews, the distinction between data arranged by study, and data arranged by observation.</p>
+<p>To understand this in the context of systematic reviews, we consider some systematic map datasets.</p>
+<h2 id="data-structures-in-systematic-reviews">data structures in systematic reviews</h2>
+<p>Whilst summarising the data by study is commonly required in tabular format for summary and reporting within systematic review publication, these summary tables frequently hide levels of detail within the data.</p>
+<p>Consider SR6 data, from…</p>
+<blockquote>
+<p>explain source of data briefly</p>
+</blockquote>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# register google sheets
+gs_ls()
+
+# specify worksheet of interest
+sr6_title &lt;- gs_title(&quot;SR6&quot;)
+
+# import data 
+sys_rev_6 &lt;- gs_read(ss=sr6_title, ws = &quot;Sheet1&quot;)</code></pre>
+</div>
+<p>The columns headings contain whitespace and special characters, such as <code>()</code> and <code>\</code>, which introduce programmatic barriers to analysis and importing data. Working with complex variable names reduces the accessibility and interpretability of any script manipulating data.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# display column names
+sys_rev_6 %&gt;% names()</code></pre>
+<pre><code>
+ [1] &quot;Citation&quot;                      &quot;Authors&quot;                      
+ [3] &quot;Year&quot;                          &quot;Title&quot;                        
+ [5] &quot;Journal/Book/ Publisher&quot;       &quot;Volume&quot;                       
+ [7] &quot;Pages&quot;                         &quot;Language&quot;                     
+ [9] &quot;Multiple studies&quot;              &quot;Country&quot;                      
+[11] &quot;State/Province&quot;                &quot;Name of site/area&quot;            
+[13] &quot;Research project&quot;              &quot;Lat.&quot;                         
+[15] &quot;Long.&quot;                         &quot;Plotted lat.&quot;                 
+[17] &quot;Plotted long.&quot;                 &quot;Altitude (m)&quot;                 
+[19] &quot;Forest type&quot;                   &quot;Dominant tree species&quot;        
+[21] &quot;Stand age (years)&quot;             &quot;Measure of age&quot;               
+[23] &quot;Stand origin&quot;                  &quot;Type of comparison&quot;           
+[25] &quot;No. of true replicates&quot;        &quot;Intervention category&quot;        
+[27] &quot;Intervention (specification)&quot;  &quot;Outcome categories&quot;           
+[29] &quot;Focal species&quot;                 &quot;Focal communities&quot;            
+[31] &quot;Focal biodiversity indicators&quot; &quot;Remarks&quot;                      
+[33] &quot;Google Scholar search&quot;         &quot;X34&quot;                          </code></pre>
+</div>
+<p>Now, the solution to this is to name columns in a conventional machine-readable format, such as <code>dominant_tree_species</code> (the format for column headings proposed by the <code>tidyverse</code> style guide<span class="citation" data-cites="wickham_tidyverse_2018">(Wickham <a href="#ref-wickham_tidyverse_2018">n.d.</a>)</span>) for the <code>Dominant tree species</code> variable.</p>
+<p>For human readability, however, these column names are easier to read. For data sharing, this presents issues in terms of data importing. Thus we do not propose that these practices are dispensed with altogether, as for summary reporting in publication white space in column headings facillitates human reading.</p>
+<p>Within these data, we also see an unlabelled column <code>X34</code>, and so it is unclear what is stored in this column and what importance (if any) it has.</p>
+<p>For these data, we would rename the column header.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+(sys_rev_6  %&gt;%
+   # rename a variable
+  rename(dominant_tree_species = `Dominant tree species`) %&gt;%
+   # display topmost results and relevant heading
+   select(Citation, dominant_tree_species) %&gt;% 
+   head()) </code></pre>
+<pre><code>
+# A tibble: 6 x 2
+  Citation                dominant_tree_species                     
+  &lt;chr&gt;                   &lt;chr&gt;                                     
+1 Soler et al. (2014)     Nothofagus pumilio                        
+2 Lencinas et al. (2009)  Nothofagus pumilio                        
+3 Lencinas et al. (2011)  Nothofagus pumilio                        
+4 Lencinas et al. (2014)  Nothofagus pumilio                        
+5 Blackhall et al. (2008) Nothofagus dombeyi, Austrocedrus chilensis
+6 Relva et al. (2010)     Austrocedrus chilensis                    </code></pre>
+</div>
+<p>The <code>dominant_tree_species</code> variable, however, still presents programmatic problems.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+(sys_rev_6  %&gt;%
+   # rename a variable
+  rename(dominant_tree_species = `Dominant tree species`) %&gt;%
+   # display topmost results and relevant heading
+   select(Citation, dominant_tree_species) %&gt;% 
+   head()) </code></pre>
+<pre><code>
+# A tibble: 6 x 2
+  Citation                dominant_tree_species                     
+  &lt;chr&gt;                   &lt;chr&gt;                                     
+1 Soler et al. (2014)     Nothofagus pumilio                        
+2 Lencinas et al. (2009)  Nothofagus pumilio                        
+3 Lencinas et al. (2011)  Nothofagus pumilio                        
+4 Lencinas et al. (2014)  Nothofagus pumilio                        
+5 Blackhall et al. (2008) Nothofagus dombeyi, Austrocedrus chilensis
+6 Relva et al. (2010)     Austrocedrus chilensis                    </code></pre>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+%&gt;% 
+  # ensure trees are separated by the same character ;
+  mutate(dominant_tree_species = str_replace_all(dominant_tree_species, &quot;,&quot;, &quot;;&quot;)) 
+
+sr6_tidy &lt;- sys_rev_6 %&gt;% 
+    mutate(species = str_split(dominant_tree_species, &quot;;[[:space:]]*&quot; )) %&gt;% unnest()</code></pre>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+(sys_rev_6  %&gt;% 
+  rename(dominant_tree_species = `Dominant tree species`) %&gt;% 
+   head()) 
+
+
+%&gt;% 
+  # ensure trees are separated by the same character ;
+  mutate(dominant_tree_species = str_replace_all(dominant_tree_species, &quot;,&quot;, &quot;;&quot;)) 
+
+sr6_tidy &lt;- sys_rev_6 %&gt;% 
+    mutate(species = str_split(dominant_tree_species, &quot;;[[:space:]]*&quot; )) %&gt;% unnest()</code></pre>
+</div>
 <h2 id="ideas-to-integrate">ideas to integrate</h2>
 <ul>
 <li>data needs to be peer reviewed</li>
@@ -1988,6 +2103,22 @@ distill-header .nav a {
 <h2 id="tree-examples">tree examples</h2>
 <p>Good enough<span class="citation" data-cites="wilson_good_2017">(Wilson et al. <a href="#ref-wilson_good_2017">2017</a>)</span></p>
 <div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+(trees &lt;- tibble(
+  species_all = c(&quot;birch; poplar&quot;,
+              &quot;oak; birch; pine&quot;,
+              &quot;&quot;,
+              &quot;poplar&quot;,
+              &quot;oak&quot;),
+  habitats_all = c(
+    &quot;wetlands&quot;,
+    &quot;forest&quot;,
+    &quot;forest, wetlands&quot;,
+    &quot;grasslands&quot;,
+    &quot;grasslands, forest&quot;
+  ),
+  id = letters[1:5]
+))</code></pre>
 <pre><code>
 # A tibble: 5 x 3
   species_all      habitats_all       id   
@@ -2000,6 +2131,10 @@ distill-header .nav a {
 </div>
 <h2 id="unnesting-variables">unnesting variables</h2>
 <div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+(trees_long &lt;- trees %&gt;% 
+  eviatlas::get_obs(&quot;species_all&quot;, &quot;species&quot;, &quot;;&quot;) %&gt;% 
+  eviatlas::get_obs(&quot;habitats_all&quot;, &quot;habitats&quot;, &quot;,&quot;))</code></pre>
 <pre><code>
 # A tibble: 10 x 5
    species_all      habitats_all       id    species habitats  
@@ -2018,6 +2153,9 @@ distill-header .nav a {
 <h2 id="wide-data">wide data</h2>
 <p>Suppose different studies observed the presence of different animals.</p>
 <div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+(trees_wide &lt;- trees_long %&gt;%
+   model.matrix(~ species + habitats, .))</code></pre>
 <pre><code>
    (Intercept) speciesbirch speciesoak speciespine speciespoplar
 1            1            1          0           0             0
@@ -2052,7 +2190,8 @@ attr(,&quot;contrasts&quot;)$habitats
 </div>
 <p>But if we wish to analyse based on the animal observations, we have multiple observations per row. To convert these data into tidy<span class="citation" data-cites="wickham_tidy_2014">(Wickham <a href="#ref-wickham_tidy_2014">2014</a>)</span> format, we need to have one animal observation per row.</p>
 <div class="layout-chunk" data-layout="l-body">
-
+<pre class="r"><code>
+clinidata &lt;- read_csv(&quot;clinical_data.csv&quot;)</code></pre>
 </div>
 <div id="refs" class="references">
 <div id="ref-nosek_promoting_2015">
@@ -2063,6 +2202,9 @@ attr(,&quot;contrasts&quot;)$habitats
 </div>
 <div id="ref-wickham_tidyverse:_2017">
 <p>———. 2017. <em>Tidyverse: Easily Install and Load the ’Tidyverse’</em>. <a href="https://CRAN.R-project.org/package=tidyverse">https://CRAN.R-project.org/package=tidyverse</a>.</p>
+</div>
+<div id="ref-wickham_tidyverse_2018">
+<p>———. n.d. <em>The Tidyverse Style Guide</em>. Accessed December 4, 2018. <a href="https://style.tidyverse.org/">https://style.tidyverse.org/</a>.</p>
 </div>
 <div id="ref-wilson_best_2014">
 <p>Wilson, Greg, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, et al. 2014. “Best Practices for Scientific Computing.” Edited by Jonathan A. Eisen. <em>PLoS Biology</em> 12 (1): e1001745. <a href="https://doi.org/10.1371/journal.pbio.1001745">https://doi.org/10.1371/journal.pbio.1001745</a>.</p>
@@ -2168,6 +2310,15 @@ Author guidelines for journals could help to promote transparency, openness, and
 	author = {Wickham, Hadley},
 	year = {2017},
 	annote = {R package version 1.2.1}
+}
+
+@book{wickham_tidyverse_2018,
+	title = {The tidyverse style guide},
+	url = {https://style.tidyverse.org/},
+	abstract = {The tidyverse style guide},
+	urldate = {2018-12-04},
+	author = {Wickham, Hadley},
+	file = {Snapshot:/home/charles/Zotero/storage/74UQJAD8/style.tidyverse.org.html:text/html}
 }
 </script>
 <!--/radix_placeholder_appendices-->
