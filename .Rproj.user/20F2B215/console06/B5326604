@@ -6,4 +6,80 @@
 ]2;git init]1;gitInitialized empty Git repository in /home/charles/Documents/repos/srdatapaper/.git/
 [1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
 [01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
-[37m▶ [K[119C[1A [37m◒  [01;31m[00m[1B[123D[?1h=[?2004hggit  g  ggit remote        g  ggit add .
+[37m▶ [K[119C[1A [37m◒  [01;31m[00m[1B[123D[?1h=[?2004hggit  g  ggit remote        g  ggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[117C[1A [33m⚑ [32m✚  [01;31m[00m[1B[123D[?1h=[?2004hggit commit -m "set up :notes:"[?1l>[?2004l
+]2;git commit -m "set up :notes:"]1;git[master (root-commit) 546c5ab] set up :notes:
+ 27 files changed, 2324 insertions(+)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rproj.user/20F2B215/console06/B5326604
+ create mode 100644 .Rproj.user/20F2B215/console06/INDEX001
+ create mode 100644 .Rproj.user/20F2B215/sources/prop/24825C23
+ create mode 100644 .Rproj.user/20F2B215/sources/prop/85629E4C
+ create mode 100644 .Rproj.user/20F2B215/sources/prop/87D3C611
+ create mode 100644 .Rproj.user/20F2B215/sources/prop/INDEX
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/1C8BD6B0-contents
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/7F65A480
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/7F65A480-contents
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/B6B357F9
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/B6B357F9-contents
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/BE6F70A
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/BE6F70A-contents
+ create mode 100644 .Rproj.user/20F2B215/sources/s-91AA26D0/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/791BCDD-README/1/20F2B21591AA26D0/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/791BCDD-README/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/84989938-paper/1/20F2B21591AA26D0/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/84989938-paper/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 README.Rmd
+ create mode 100644 README.md
+ create mode 100644 biblio.bib
+ create mode 100644 paper.Rmd
+ create mode 100644 paper.html
+ create mode 100644 srdatapaper.Rproj
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit push [?1l>[?2004l
+]2;git push]1;gitfatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[116C[1A[37m0m[00m [33m⚑  [01;31m⍉[00m[1B[123D[?1h=[?2004hggit remote add -u origin git@github.com:softloud/srdatapaper.git[?1l>[?2004l
+]2;git remote add -u origin git@github.com:softloud/srdatapaper.git]1;giterror: unknown switch `u'
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[116C[1A[37m0m[00m [33m⚑  [01;31m⍉[00m[1B[123D[?1h=[?2004hggit remote add origin git@github.com:softloud/srdatapaper.git[?1l>[?2004l
+]2;git remote add origin git@github.com:softloud/srdatapaper.git]1;git[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit push    status[?1l>[?2004l
+]2;git status]1;gitOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/20F2B215/console06/B5326604[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                              ]2;charles@puzzlebook: ~/Documents/repos/srdatapaper]1;..s/srdatapaper[0m[27m[24m[J
+[01;34mDocuments/repos/srdatapaper[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[117C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[123D[?1h=[?2004hggit add .
