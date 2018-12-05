@@ -213,3 +213,34 @@ clinidata <- read_csv("clinical_data.csv")
 
 ```
 
+---
+**General good house-keeping for data **
+
+Naming datasets and formats:
+* Save data as “.txt” or “.csv”
+* Keep dataset names to a minimum length
+* Do not use special characters (@, ~, *, etc.) in the dataset name
+* Include a version number or date in the dataset name
+* Do not include spaces in the name of the dataset – replace spaces with an underscore
+
+Dataset description and metadata:
+* Save data description and metadata in a separate file named “readme.txt”.
+* Include a brief description of the dataset and how it was collected or collated.
+Choose short and descriptive names for variables, without spaces, capitalisation or special characters.
+* Define variables fully; giving the units the data are in as well as any other relevant information
+(sources of data etc.)
+
+Other data considerations:
+* Retain all the raw data – do not summarise data and convert continuous data in to categorical
+data
+* Retain all the raw data – do not summarise data and convert continuous data in to categorical
+data
+* One "cell" one value - avoid adding values such as 95% CI in the same cell as the point estimate
+* Do not use special characters in the data if you can avoid it
+* Identify missing data with the code “NA” to distinguish them from zero values – do not leave
+any blank cells in the dataset
+*
+*
+
+
+---
