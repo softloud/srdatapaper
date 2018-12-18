@@ -1,5 +1,5 @@
 ---
-title: "Tidy evidence syntheses: ‘good enough’ practice and minimum standards in data presentation for maximising legacy, reuse and impact"
+title: "Tidy evidence syntheses: ‘good enough’ practice and minimum standards in data presentation **WHY presentation when you write about reporting and reviewing** for maximising legacy, reuse and impact"
 description: |
   Good enough practices in data management for systematic maps.
 author:
@@ -34,7 +34,9 @@ bibliography: biblio.bib
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+knitr::opts_chunk$set(echo = TRUE,eval=FALSE)
+
 ```
 
 
@@ -49,31 +51,36 @@ library(googlesheets)
 
 ## why _tidy_ systematic review data?
 
-That open and transparent practices benefit science has been widely discussed and rarely disputed[@nosek_promoting_2015]. However, there are significant barriers to the adoption of these practices. For example, applied scientists are rarely trained in data management and are frequently hesitant to share code and data due to exposing ad hoc procedures[@wilson_good_2017].  
+That open and transparent practices benefit science has been widely discussed and rarely disputed[@nosek_promoting_2015]. However, there are significant barriers to the adoption of these practices. For example, applied scientists are rarely trained in data management and are frequently hesitant to share code and data due to exposing ad hoc procedures[@wilson_good_2017].  **fJ comment - What about pre-print platforms?**
 
-Systematic reviews are increasingly utilised in a number of disciplines, each of which have developed data management practices idiosyncratic to the summary requirements of that discipline. However, manipulating data for analysis, visualisation, and summary is a universal problem across disciplines. We seek to delineate between data structures for reporting and data structured for systematic review (and, by extension, data analytics). We propose that data for systematic reviews follow _tidy data_ principles[@wickham_tidy_2014] to facilitate transparency and collaborative science.  
+Systematic reviews are increasingly utilised in a number of disciplines, each of which have developed data management practices idiosyncratic to the summary requirements of that discipline **lit, and to be honest, I am not super sure what a systematic review is from your paper**. However, **why "however"** manipulating data for analysis, visualisation, and summary is a universal problem across disciplines. **sentence needed about "data reveiew"** We seek to delineate between data structures for systematic review (and, by extension, data analytics) and reporting data structure **I inverted the two, as you talk in the first sentence about reviews, and then about structures, so keep the streucture**. We propose that data for systematic reviews follow _tidy data_ principles[@wickham_tidy_2014] to facilitate transparency and collaborative science.  **okay, so it is about systemetic reviews, or is it about data presentation?**
 
-In response, a discussion of _best practices_ in data analytics has begun to emerge[@wilson_best_2014]. However, a gap remains between the proposal of best practice methods, and the adoption of these methods, which leads to consideration of not what is best, but what is _good enough_[@wilson_good_2014]. 
+In response **in response to what, this is not clear here, maybe think about rewording, or add detail**, a discussion of _best practices_ in data analytics has begun to emerge[@wilson_best_2014]. However, a gap remains between the proposal of best practice methods, and the adoption of these methods, which leads to consideration of not what is best, but what is _good enough_[@wilson_good_2014]. 
 
-The barriers to good enough practices in data analysis, reporting, and transparency are uniquely computational in nature, as opposed to other aspects of open science, such as preregistration, or the adoption of particular methodologies. If we are to ask scientists to adopt better computational practices, we must lower the programmatic barrier to the implementation of these methods. Clearly identifying minimum standards for data sharing and transparent analyses benefit scientists who engage with computational aspects of systematic reviews  infrequently, as is common for applied scientists for whom the data component of a systematic review. With clear minimum standards for reporting, anxiety associated with data sharing[@@wilson_good_2014] can be mitigated, and thus a barrier to open and transparent data.  
+The barriers to good enough practices in data analysis, reporting, and transparency are uniquely computational in nature, as opposed to other aspects of open science, such as preregistration, or the adoption of particular methodologies. If we are to ask scientists to adopt better computational practices **for reporting?**, we must lower the programmatic barrier to the implementation of these methods. Clearly identifying minimum standards for data sharing and transparent analyses **will predominantly** benefit scientists who **infrequntly** engage with computational aspects of systematic reviews  ~~infrequently~~, as is common for applied scientists for whom the data component of a systematic review **this part of the sentence is unclear, or incomplete**. With clear minimum standards for reporting, anxiety associated with data sharing[@@wilson_good_2014] can be mitigated, and thus a barrier to open and transparent data.  
 
-Data analytic tools, such as the metapackage `tidyverse::`[@wickham_tidyverse:_2017], are designed to be discipline agnostic. Thus methods are easily shared across disciplines, and duplication is reduced. For the tools to be agnostic, however, data must be structured in some uniform sense. We propose the adoption of _tidy data_[@wickham_tidyverse:_2017] for systematic reviews. Whilst reporting standards vary from journal to journal, discipline to discipline, the computational tools upon which scientists rely for analysis, such as `tidyverse::` for data science or `revtools::`[CITE] for systematic reviews, frequently work best with tidy data. 
+Data analytic tools, such as the metapackage `tidyverse::`[@wickham_tidyverse:_2017], are designed to be discipline agnostic, **allowing for **  ~~Thus~~ methods **to** ~~are~~ **be** easily shared across disciplines, and duplication is reduced. For the tools to be agnostic, however, data must be structured in some uniform sense. We propose the adoption of _tidy data_[@wickham_tidyverse:_2017] for systematic reviews. Whilst reporting standards vary from journal to journal **and from** discipline to discipline, the computational tools upon which scientists rely for analysis, such as `tidyverse::` for data science or `revtools::`[@westgate_revtools:_2018] for systematic reviews, frequently work best with tidy data. 
 
-### what is tidy data?
+### what is tidy data? 
 
-Data is commonly structured tabular format, with _rows_ and _columns_ as is familiar within spreadsheeting tools such as Excel. A dataset is a collection of _values_, but there are many ways these values can be arranged within rows and columns[@wickham_tidy_2014]. In the case of systematic reviews, we wish to explain, with examples from disciplines that make frequent use of systematic reviews, the distinction between data arranged by study, and data arranged by observation. 
+**remember to put in here something for those who do not know what tidy data is, make it clear, so that they can do it, and understand why they should do it, and it will make them think about the maths and help them to understand it**
+
+Data is commonly structured **in** tabular format **WHY, you know this, but you need to be explict and say why**, with _rows_ and _columns_ as is familiar within spreadsheeting tools such as Excel. A dataset is a collection of _values_, but there are many ways these values can be arranged within rows and columns[@wickham_tidy_2014]. In the case of systematic reviews, we wish to explain, with examples **taken from ecology as an example of a** ~~from~~ disciplines that make frequent use of systematic reviews, the distinction between data arranged by study, and data arranged by observation. 
 
 To understand this in the context of systematic reviews, we consider some systematic map datasets.
 
+
+
+
 ## data structures in systematic reviews
 
-Whilst summarising the data by study is commonly required in tabular format for summary and reporting within systematic review publication, these summary tables frequently hide levels of detail within the data. 
+Whilst summarising the **do you need the definitive here, or leave out THE** data by study is commonly required in tabular format for summary and reporting within systematic review publication, these summary tables frequently hide levels of detail within the data. **here you might want to make clear if you are talking about reviews or reporting, or maybe think about if/how they are different**
 
 Consider SR6 data, from... 
 
 > explain source of data briefly
 
-```{r get sr6 data, results=FALSE, message=FALSE}
+```{r get sr6 data, results=FALSE, message=FALSE, eval=FALSE}
 # register google sheets
 gs_ls()
 
@@ -84,9 +91,9 @@ sr6_title <- gs_title("SR6")
 sys_rev_6 <- gs_read(ss=sr6_title, ws = "Sheet1")
 ```
 
-The columns headings contain whitespace and special characters, such as `()` and `\`, which introduce programmatic barriers to analysis and importing data. Working with complex variable names reduces the accessibility and interpretability of any script manipulating data. 
+The columns headings contain whitespace and special characters, such as `()` and `\`, which introduce programmatic barriers to analysis and importing data **explain here why this is a progammatic barrier, just half a sentence, Mark just said broom it, this is what is needed here**. Working with complex variable names reduces the accessibility and interpretability of any script manipulating data. 
 
-```{r}
+```{r eval=FALSE}
 # display column names
 sys_rev_6 %>% names()
 
@@ -94,122 +101,38 @@ sys_rev_6 %>% names()
 
 Now, the solution to this is to name columns in a conventional machine-readable format, such as `dominant_tree_species` (the format for column headings proposed by the `tidyverse` style guide[@wickham_tidyverse_2018]) for the `Dominant tree species` variable.
 
-For human readability, however, these column names are easier to read. For data sharing, this presents issues in terms of data importing. Thus we do not propose that these practices are dispensed with altogether, as for summary reporting in publication white space in column headings facillitates human reading. 
+For human readability, however, these column names **such as? want to give an example** are easier to read **than, mabybe give an example**. For data sharing, this presents issues in terms of data importing. Thus we do not propose that these practices **of providing colum names for human readability** are dispensed with altogether, **for example** ~~as~~ for summary reporting in publication white space in column headings facillitates human reading. 
 
 Within these data, we also see an unlabelled column `X34`, and so it is unclear what is stored in this column and what importance (if any) it has. 
 
 For these data, we would rename the column header. 
 
-```{r}
+```{r eval=FALSE}
 (sys_rev_6  %>%
    # rename a variable
   rename(dominant_tree_species = `Dominant tree species`) %>%
    # display topmost results and relevant heading
-   select(Citation, dominant_tree_species) %>% 
+   select(dominant_tree_species, Citation) %>% 
    head()) 
 
 ```
 
-The `dominant_tree_species` variable, however, still presents programmatic problems.
-
-```{r}
-(sys_rev_6  %>%
-   # rename a variable
-  rename(dominant_tree_species = `Dominant tree species`) %>%
-   # display topmost results and relevant heading
-   select(Citation, dominant_tree_species) %>% 
-   head()) 
-
-```
-
-
-
-```{r eval = FALSE}
-
-
-%>% 
-  # ensure trees are separated by the same character ;
-  mutate(dominant_tree_species = str_replace_all(dominant_tree_species, ",", ";")) 
-
-sr6_tidy <- sys_rev_6 %>% 
-    mutate(species = str_split(dominant_tree_species, ";[[:space:]]*" )) %>% unnest()
-
-
-```
+The `dominant_tree_species` variable, however, still presents programmatic problems **WHY, spell out**. 
 
 ```{r eval=FALSE}
-(sys_rev_6  %>% 
-  rename(dominant_tree_species = `Dominant tree species`) %>% 
-   head()) 
-
-
-%>% 
-  # ensure trees are separated by the same character ;
-  mutate(dominant_tree_species = str_replace_all(dominant_tree_species, ",", ";")) 
-
-sr6_tidy <- sys_rev_6 %>% 
-    mutate(species = str_split(dominant_tree_species, ";[[:space:]]*" )) %>% unnest()
-
-```
-
-## ideas to integrate
-
-- data needs to be peer reviewed
-
-
-
-## tree examples
-
-Good enough[@wilson_good_2017]
-
-
-```{r}
-(trees <- tibble(
-  species_all = c("birch; poplar",
-              "oak; birch; pine",
-              "",
-              "poplar",
-              "oak"),
-  habitats_all = c(
-    "wetlands",
-    "forest",
-    "forest, wetlands",
-    "grasslands",
-    "grasslands, forest"
-  ),
-  id = letters[1:5]
-))
-```
-
-
-
-## unnesting variables
-
-```{r}
-(trees_long <- trees %>% 
-  eviatlas::get_obs("species_all", "species", ";") %>% 
-  eviatlas::get_obs("habitats_all", "habitats", ","))
-
+(sys_rev_6  %>%
+   # rename a variable
+  rename(dominant_tree_species = `Dominant tree species`) %>%
+   # display topmost results and relevant heading
+   select(dominant_tree_species, Citation) %>% 
+   # filter long entries for tree species
+   filter(str_length(dominant_tree_species) > 30)) %>% 
+  head(5)
 
 ```
 
 
 
-## wide data
-
-Suppose different studies observed the presence of different animals. 
-
-```{r}
-(trees_wide <- trees_long %>%
-   model.matrix(~ species + habitats, .))
-```
-
-But if we wish to analyse based on the animal observations, we have multiple observations per row. To convert these data into tidy[@wickham_tidy_2014] format, we need to have one animal observation per row. 
 
 
-```{r}
-clinidata <- read_csv("clinical_data.csv")
-
-
-```
 
